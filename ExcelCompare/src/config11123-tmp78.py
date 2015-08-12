@@ -1,0 +1,3 @@
+from distutils.core import setup
+import py2exe
+setup(version = "",description = "",name = "",options = {"py2exe": {"compressed": 1,"optimize": 2,"ascii": 0,  "bundle_files": 1,"includes":["sip"],"dll_excludes": ["MSVCP90.dll","mswsock.dll","powrprof.dll"]}},zipfile = None,windows = [{"script": "C:/Users/xionxiao/workspace/ExcelCompare/src/myView.py", "icon_resources": [(1, "C:/Users/xionxiao/Pictures/ico/1.ico")]} ],)
